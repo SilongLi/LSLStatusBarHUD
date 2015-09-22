@@ -1,9 +1,7 @@
 //
 //  ViewController.m
-//  LSLStatusBarHUDDemo
 //
-//  Created by lisilong on 15/9/21.
-//  Copyright (c) 2015年 longshao. All rights reserved.
+//  Created by lisilong on 15/9/21 QQ:876996667.
 //
 
 #import "ViewController.h"
