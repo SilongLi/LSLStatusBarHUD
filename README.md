@@ -36,3 +36,7 @@
 ```objc
   [LSLStatusBarHUD showText:@"明天会更好！"];
 ```
+
+![](https://github.com/SilongLi/LSLStatusBarHUD/raw/master/Logo/LSLStatusBarHUD.gif)  
+
+
