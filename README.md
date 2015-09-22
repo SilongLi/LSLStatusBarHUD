@@ -1,7 +1,7 @@
 # LSLStatusBarHUD
 一个非常实用的状态信息提示框架！
 
-## 使用时非常的简单，只需导入头文件即可
+### 使用时非常的简单，只需导入头文件即可
 ```objc
 #import "LSLStatusBarHUD.h"
 ```
@@ -24,14 +24,17 @@
   [LSLStatusBarHUD showError:@"加载失败！"];
 ```
 
-### 成功信息提示方式
+### 加载中信息提示方式
 ```objc
   [LSLStatusBarHUD showLoadding:@"正在加载中"];
 ```
+### 隐藏信息提示框
 
 ```objc
   [LSLStatusBarHUD hide];
 ```
+
+### 文字信息提示方式
 
 ```objc
   [LSLStatusBarHUD showText:@"明天会更好！"];
