@@ -6,7 +6,6 @@
 #import "LSLStatusBarHUD.h"
 ```
 ### 成功信息提示方式
-
 ```objc
   // 方式一
   [LSLStatusBarHUD showImage:[UIImage imageNamed:@"xxx"] text:@"加载成功！"];
@@ -19,7 +18,6 @@
 ```
 
 ### 失败信息提示方式
-
 ```objc
   [LSLStatusBarHUD showError:@"加载失败！"];
 ```
@@ -35,7 +33,6 @@
 ```
 
 ### 文字信息提示方式
-
 ```objc
   [LSLStatusBarHUD showText:@"明天会更好！"];
 ```
