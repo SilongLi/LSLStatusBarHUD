@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		99A3626B1BB125FF004C39A9 /* LSLStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 99A362681BB125FF004C39A9 /* LSLStatusBarHUD.bundle */; };
 		99A3626C1BB125FF004C39A9 /* LSLStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A3626A1BB125FF004C39A9 /* LSLStatusBarHUD.m */; };
+		99A3626F1BB1341D004C39A9 /* LSLStatusBarHUD.gif in Resources */ = {isa = PBXBuildFile; fileRef = 99A3626E1BB1341D004C39A9 /* LSLStatusBarHUD.gif */; };
 		99DDE5FD1BB04BE400E6C1E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDE5FC1BB04BE400E6C1E6 /* main.m */; };
 		99DDE6001BB04BE400E6C1E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDE5FF1BB04BE400E6C1E6 /* AppDelegate.m */; };
 		99DDE6031BB04BE400E6C1E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DDE6021BB04BE400E6C1E6 /* ViewController.m */; };
@@ -32,6 +33,7 @@
 		99A362681BB125FF004C39A9 /* LSLStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LSLStatusBarHUD.bundle; sourceTree = "<group>"; };
 		99A362691BB125FF004C39A9 /* LSLStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLStatusBarHUD.h; sourceTree = "<group>"; };
 		99A3626A1BB125FF004C39A9 /* LSLStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLStatusBarHUD.m; sourceTree = "<group>"; };
+		99A3626E1BB1341D004C39A9 /* LSLStatusBarHUD.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LSLStatusBarHUD.gif; sourceTree = "<group>"; };
 		99DDE5F71BB04BE400E6C1E6 /* LSLStatusBarHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSLStatusBarHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DDE5FB1BB04BE400E6C1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99DDE5FC1BB04BE400E6C1E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +77,15 @@
 			path = LSLStatusBarHUD;
 			sourceTree = SOURCE_ROOT;
 		};
+		99A3626D1BB1341D004C39A9 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				99A3626E1BB1341D004C39A9 /* LSLStatusBarHUD.gif */,
+			);
+			name = Logo;
+			path = "../../../../../../Volumes/龙少/ios大神班/李明杰老师讲课资料/0921/代码/XMGStatusBarHUDDemo/Logo";
+			sourceTree = "<group>";
+		};
 		99DDE5EE1BB04BE400E6C1E6 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +107,7 @@
 		99DDE5F91BB04BE400E6C1E6 /* LSLStatusBarHUDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				99A3626D1BB1341D004C39A9 /* Logo */,
 				99A362671BB125FF004C39A9 /* LSLStatusBarHUD */,
 				99DDE5FE1BB04BE400E6C1E6 /* AppDelegate.h */,
 				99DDE5FF1BB04BE400E6C1E6 /* AppDelegate.m */,
@@ -217,6 +229,7 @@
 			files = (
 				99DDE6061BB04BE400E6C1E6 /* Main.storyboard in Resources */,
 				99DDE60B1BB04BE400E6C1E6 /* LaunchScreen.xib in Resources */,
+				99A3626F1BB1341D004C39A9 /* LSLStatusBarHUD.gif in Resources */,
 				99DDE6081BB04BE400E6C1E6 /* Images.xcassets in Resources */,
 				99A3626B1BB125FF004C39A9 /* LSLStatusBarHUD.bundle in Resources */,
 			);
